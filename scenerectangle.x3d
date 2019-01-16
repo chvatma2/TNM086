@@ -1,0 +1,24 @@
+<X3D profile='Immersive' version='3.0'>
+  <Scene>
+	<NavigationInfo type="none"/>
+    <Group>
+      <Viewpoint position="0 0 0.6"/>
+	  <Transform rotation="0 0 0 0">
+      <Shape>
+        <Appearance DEF="APPEARANCE" >
+          <Material/>
+          <SmoothSurface useRelativeValues="false" stiffness="200" damping="0"/>
+        </Appearance>
+        <Rectangle2D DEF="GEOM" size="0.2 0.2" solid="FALSE" />
+      </Shape>
+    </Transform>
+	<Shape>
+    <Appearance>
+      <Material diffuseColor="1 0 0" transparency="0.5"/>
+	  <SmoothSurface useRelativeValues="false" stiffness="200" damping="0"/>
+    </Appearance>
+    <Sphere DEF="SPHERE" radius = "0.0005" />
+  </Shape>
+    </Group>
+  </Scene>
+</X3D>
